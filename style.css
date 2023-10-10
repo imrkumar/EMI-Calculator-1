@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+    background: linear-gradient(45deg,rgb(32, 38, 57),rgb(63, 76, 119));
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+.inner{
+    
+    width: 300px;
+    margin: auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: white;
+    
+ 
+}
+dt{
+    margin-bottom: 10px;
+}
+
+#rate,#year,#amount{
+    width: 75%;
+    margin: auto;
+}
